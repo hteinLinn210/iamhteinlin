@@ -158,7 +158,7 @@ topLinks.forEach((link) => {
    });
 });
 
-$(".count").each(function () {
+$(".preloader-count").each(function () {
    $(this)
       .prop("Counter", 0)
       .animate(
